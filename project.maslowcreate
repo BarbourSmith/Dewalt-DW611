@@ -31,6 +31,19 @@
                     "ioValues": [
                         {
                             "name": "diameter",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 90,
+                    "y": 216,
+                    "uniqueID": 208100,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
                             "ioValue": 10
                         }
                     ]
@@ -57,7 +70,20 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 283,
+                    "y": 233,
+                    "uniqueID": 341819,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": -10
                         }
                     ]
                 },
@@ -78,6 +104,58 @@
                     "uniqueID": 422856,
                     "ioValues": [],
                     "selectedColorIndex": "4"
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 520,
+                    "y": 127,
+                    "uniqueID": 821407,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 113
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 522,
+                    "y": 208,
+                    "uniqueID": 384907,
+                    "ioValues": [],
+                    "selectedColorIndex": "11"
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 745,
+                    "y": 74,
+                    "uniqueID": 461719,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -106,6 +184,13 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 208100,
+                    "ap2ID": 341819
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 400940,
                     "ap2ID": 829416
                 },
@@ -115,6 +200,47 @@
                     "ap2Primary": true,
                     "ap1ID": 840850,
                     "ap2ID": 422856
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 341819,
+                    "ap2ID": 384907
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 829416,
+                    "ap2ID": 461719
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 422856,
+                    "ap2ID": 821407
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 821407,
+                    "ap2ID": 461719
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 384907,
+                    "ap2ID": 461719
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 461719
                 }
             ],
             "fileTypeVersion": 1
