@@ -195,8 +195,8 @@
         {
             "atomType": "Union",
             "name": "Union",
-            "x": 0.8055555555555556,
-            "y": 0.89272030651341,
+            "x": 0.8283730158730159,
+            "y": 0.632183908045977,
             "uniqueID": 538588,
             "ioValues": [
                 {
@@ -205,6 +205,10 @@
                 },
                 {
                     "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
                     "ioValue": 10
                 }
             ]
@@ -295,7 +299,13 @@
             "ap1ID": 449453,
             "ap2ID": 929782
         },
-        null,
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 384907,
+            "ap2ID": 538588
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry2",
@@ -309,6 +319,12 @@
             "ap2Primary": false,
             "ap1ID": 791085,
             "ap2ID": 538588
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 538588
         }
     ],
     "fileTypeVersion": 1,
