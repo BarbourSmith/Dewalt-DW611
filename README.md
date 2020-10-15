@@ -4,6 +4,3 @@
 
 ![](/project.svg)
 
-## Dewalt DW611
-
-
